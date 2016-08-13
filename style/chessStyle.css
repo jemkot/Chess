@@ -1,0 +1,28 @@
+#container  {
+  width: 100%;
+  overflow: hidden;
+}
+
+#gameStatus {
+  float: left;
+  width: 30%;
+  margin: 10% 0 0 10%;
+}
+
+#gameArea {
+  float: left;
+  width: 50%;
+  margin: 0 5%;
+}
+
+#board {
+	border:1px solid #171516;
+	padding-left: 0;
+    padding-right: 0;
+    display: block;
+}
+
+#playerTitle, #currentMove {
+ font-size: 2em;
+ font-weight: bold;
+}
